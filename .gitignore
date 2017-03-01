@@ -1,0 +1,14 @@
+
+\.hg/
+
+\.hgignore
+
+*.o
+
+*.d
+
+dist/Debug/GNU-Linux/dukpt
+
+nbproject/private/
+
+*.log
