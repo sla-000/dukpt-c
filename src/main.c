@@ -30,9 +30,9 @@ int main(int argc, char * argv[]) {
 
 	slog_init("log", "slog.cfg", 0, 0, 0);
 
-#if defined(UNIT_TEST)
+#if defined(DUKPT_TEST)
 	DukptUnittest();
-#endif // defined(UNIT_TEST)
+#endif // #if defined(DUKPT_TEST)
 
 	slog(LL_VERBOSE, SLOG_LIVE, "OK");
 

@@ -67,7 +67,7 @@
           <commandLine>-Wextra -fno-strict-aliasing -std=gnu11</commandLine>
           <preprocessorList>
             <Elem>DEBUG</Elem>
-            <Elem>UNIT_TEST</Elem>
+            <Elem>DUKPT_TEST</Elem>
           </preprocessorList>
           <warningLevel>2</warningLevel>
         </cTool>
@@ -81,51 +81,6 @@
             <linkerLibLibItem>crypto</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
-      </compileType>
-      <item path="dukpt/dukpt.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="dukpt/dukpt.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="include/myassert.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="include/types.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="settings/dukpt-sett.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="settings/slog-sett.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="slog/LICENSE" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="slog/README.md" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="slog/slog.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="slog/slog.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="slog/slog.png" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/main.c" ex="false" tool="0" flavor2="0">
-      </item>
-    </conf>
-    <conf name="Release" type="1">
-      <toolsSet>
-        <compilerSet>default</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
-      </toolsSet>
-      <compileType>
-        <cTool>
-          <developmentMode>5</developmentMode>
-        </cTool>
-        <ccTool>
-          <developmentMode>5</developmentMode>
-        </ccTool>
-        <fortranCompilerTool>
-          <developmentMode>5</developmentMode>
-        </fortranCompilerTool>
-        <asmTool>
-          <developmentMode>5</developmentMode>
-        </asmTool>
       </compileType>
       <item path="dukpt/dukpt.c" ex="false" tool="0" flavor2="0">
       </item>

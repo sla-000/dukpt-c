@@ -2,6 +2,7 @@
 
 #include <assert.h>
 #include <stdio.h>
+
 #include <slog/slog.h>
 #include <settings/slog-sett.h>
 

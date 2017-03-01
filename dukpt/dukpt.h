@@ -128,11 +128,11 @@ extern void DukptDecryptDataIpek( _OUT DukptData_t * const out_data, //
 //-------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------
 
-#if defined(UNIT_TEST)
+#if defined(DUKPT_TEST)
 
 /// Unit test
 extern void DukptUnittest(void);
 
-#endif // defined(UNIT_TEST)
+#endif // defined(DUKPT_TEST)
 
 //-------------------------------------------------------------------------------------------------------

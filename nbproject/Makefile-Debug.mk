@@ -67,17 +67,17 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/dukpt: ${OBJECTFILES}
 ${OBJECTDIR}/dukpt/dukpt.o: dukpt/dukpt.c
 	${MKDIR} -p ${OBJECTDIR}/dukpt
 	${RM} "$@.d"
-	$(COMPILE.c) -g -Wall -DUNIT_TEST -DDEBUG -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/dukpt/dukpt.o dukpt/dukpt.c
+	$(COMPILE.c) -g -Wall -DDEBUG -DDUKPT_TEST -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/dukpt/dukpt.o dukpt/dukpt.c
 
 ${OBJECTDIR}/slog/slog.o: slog/slog.c
 	${MKDIR} -p ${OBJECTDIR}/slog
 	${RM} "$@.d"
-	$(COMPILE.c) -g -Wall -DUNIT_TEST -DDEBUG -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/slog/slog.o slog/slog.c
+	$(COMPILE.c) -g -Wall -DDEBUG -DDUKPT_TEST -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/slog/slog.o slog/slog.c
 
 ${OBJECTDIR}/src/main.o: src/main.c
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.c) -g -Wall -DUNIT_TEST -DDEBUG -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/main.o src/main.c
+	$(COMPILE.c) -g -Wall -DDEBUG -DDUKPT_TEST -Iinclude -I. -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/main.o src/main.c
 
 # Subprojects
 .build-subprojects:
